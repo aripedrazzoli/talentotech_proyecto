@@ -1,0 +1,121 @@
+.contenedor{
+    width: 100%;
+    max-width: 1366;
+    margin: 20px auto;
+    border: 2px solid #895a0e;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+
+.titulo{
+    background-color: #0e93ff;
+    font-family: Impact;
+    font-size: small;
+    padding: 5px;
+
+}
+
+.navbar{
+    width: 95%;
+    margin: 1px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.header{
+    background-color: #072c3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 5%;
+}
+
+.header .logo-img-container{
+    cursor: progress;
+}
+
+.header .logo-img-container img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo-img-container img:hover{
+    transform: scale(1.2);
+}
+
+.header .navbar{
+    list-style: inside;
+}
+
+.header .navbar li{
+    display: inline-block;
+    padding: 0 5px;    
+}
+
+.header .navbar li:hover{
+    transform: scale(1.1);
+}
+
+.header .navbar a{
+    font-family: Tahoma;
+    font-size: 90%;
+    color: #3508bd;
+    text-decoration: none;    
+}
+
+.header .navbar li a:hover{
+    color: #ffbc0e;
+}
+
+.fondo{
+    width: 100%;
+    height: auto;
+    opacity: 20%;
+}
+
+.pie{
+    width: auto;
+    padding: 1px;
+    border: #072c3c solid;
+    background-color: #072c3c;
+}
+.pie-text{
+    font-family: Georgia;
+    font-size: 7px;
+}
+
+.box-mapa{
+    align-items: auto;
+    width: 400px;
+    margin: 10%;
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid #0e93ff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #072c3c;
+    transform: scale(1.05);
+    align-items: center;
+}
+
+.mapa-img{
+    width: 400px;
+}
+
+.contenedor-contacto{
+    width: 100%;
+    padding: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+    border: 2px solid #62ff00;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+
+.contenedor-contacto form button:hover{
+    transform: scale(1.05);
+    color: #ffbc0e;
+    background-color: red;
+}
